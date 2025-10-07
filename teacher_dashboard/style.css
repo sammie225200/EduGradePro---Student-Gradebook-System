@@ -47,8 +47,6 @@ ul{
     
 }
 
-
-
 a{
     text-decoration: none;
     color: rgb(243, 255, 255);
@@ -62,6 +60,7 @@ a{
     margin: 20px 15px;
     background-color: #13A4EC;
     border-radius: 10px;
+    width: auto;
 }
 
 .add:hover{
@@ -90,27 +89,35 @@ a{
 
 
 .studentsBtn{
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    color: black;
+    font-weight: 530;
 }
 
 .gradebookBtn{
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #13A4EC;
     border: none;
     border-radius: 5px;
+    color: white;
+    font-weight: 530;
 }
 
 .profilePic{
-    background-color: aqua;
+    background-color: #E7BE92;
     padding: 20px;
-    border-radius: 17px;
+    border-radius: 100%;
 }
 
 .dashboard{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.dashboard h3{
+    font-weight: 600;
 }
 
 .cardBox{
@@ -125,6 +132,7 @@ a{
     gap: 4px;
     background-color: white;
     padding: 20px 10px;
+    border-color: #ddd;
     border-radius: 5px;
     width: 200px;
     box-shadow: 0px 0px 0.8px;
@@ -134,9 +142,13 @@ p{
     color: #6893AA;
 }
 
+h4{
+    font-weight: 600;
+}
+
 .card h3{
     font-size: 20px;
-    font-weight: bold;
+    font-weight:700;
 }
 
 .rosterMain{
@@ -182,12 +194,32 @@ th{
     text-align: left;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
+    color: #6893AA;
+    font-weight:600;
+    
 }
 
 td{
     padding: 20px 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+
+}
+
+.icon{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.idOptions{
+    color: #6893AA;
+}
+
+.classOptions{
+    color: #6893AA;
 }
 
 
