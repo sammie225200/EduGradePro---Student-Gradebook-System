@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+body{
+    background-color: #F8FAFC;
+    height: 100dvh;
+    display: flex;
+
+
+}
+
+.sidebar{
+    background-color: #0D171B;
+    height: 100dvh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    text-align: center;
+    margin: 25px 15px;
+    color: white;
+    font-weight: 5px;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 5px 15px;
+}
+
+.navitems{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    text-decoration: none;  
+
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(243, 255, 255);
+    font-size: 14px;
+    
+}
+
+.add{
+    padding: 10px;
+    text-align: center;
+    margin: 20px 15px;
+    background-color: #13A4EC;
+    border-radius: 10px;
+}
+
+.add:hover{
+    background-color: #026291;
+}
+
+.mainbody{
+    padding: 40px 50px;
+    flex: 1;
+    
+}
+
+.headpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.topBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.studentsBtn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.gradebookBtn{
+    padding: 10px;
+    background-color: #13A4EC;
+    border: none;
+    border-radius: 5px;
+}
+
+.profilePic{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 17px;
+}
+
+.dashboard{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cardBox{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0px 0px 0.8px;
+}
+
+p{
+    color: #6893AA;
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rosterMain{
+    margin-top: 20px ;
+    display: flex;
+    justify-content: space-between;
+}
+.rosterNav{
+    display: flex;
+    gap: 10px;
+
+}
+
+.rosterNav button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.rosterNav input{
+    padding: 5px 15px;
+    border-radius: 5px;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+    
+
+thead{
+    background-color: #F1F5F9;
+    
+}
+
+th{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+td{
+    padding: 20px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+

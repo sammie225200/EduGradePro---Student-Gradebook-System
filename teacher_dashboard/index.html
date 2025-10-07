@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+                        
+            <div class="logo">EduGrade Pro</div>
+            <div class="navmenu">
+                <ul>
+                    <li class="navitems"><a href="#"></i><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li class="navitems"><a href="#"><i class="fas fa-user-graduate"></i> Students</a></li>
+                    <li class="navitems"><a href="#"><i class="fas fa-book"></i> Gradebook</a></li>
+                    <li class="navitems"><a href="#"><i class="fas fa-chart-bar"></i> Reports</a></li>
+                    <li class="navitems"><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li class="navitems"><a href="#"><i class="fas fa-question-circle"></i> Help</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="add"> 
+            <a href="#">Add New Student</a>
+        </div>
+
+    </div>
+    <div class="mainbody">
+        <div class="headpart">
+            <div class="welcome">
+                <h2>Welcome, Ms. Johnson</h2>
+            </div>
+            
+            <div class="topBtn">
+                <button class="studentsBtn">View All Students</button>
+                <button class="gradebookBtn">Go to Gradebook</button>
+                <div class="profilePic"></div>
+            </div>
+
+        </div>
+        <div class="dashboard">
+            <h3>Dashboard Overview</h3>
+        </div>
+        <div class="cardBox">
+            <div class="card">
+                <p>Total Students</p><br>
+                <h3>150</h3>
+            </div>
+            <div class="card">
+                <p>Active Classes</p><br>
+                <h3>3</h3>
+            </div>
+            <div class="card">
+                <p>Average Grade</p><br>
+                <h3>B</h3>
+            </div>
+            <div class="card">
+                <p>Assignments Due</p><br>
+                <h3>5</h3>
+            </div>
+
+        </div>
+
+        <div class="rosterMain">
+            <h4>Student Roster</h4>
+
+            <div class="rosterNav">
+                <input id="search" type="search"
+                placeholder="🔎Search students...">
+                <button>All</button>
+                <button>SS1</button>
+                <button>SS2</button>
+                <button>SS3</button>
+
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>STUDENT NAME</th>
+                    <th>STUDENT ID</th>
+                    <th>CLASS</th>
+                    <th>ACTIONS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Smith</td>
+                    <td>S001</td>
+                    <td>SS1</td>
+                    <td>ICONS</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>S002</td>
+                    <td>SS1</td>
+                    <td>ICONS</td>
+                </tr>
+                <tr>
+                    <td>Alice Smith</td>
+                    <td>S001</td>
+                    <td>SS1</td>
+                    <td>ICONS</td>
+                </tr>
+                <tr>
+                    <td>Alice Smith</td>
+                    <td>S001</td>
+                    <td>SS1</td>
+                    <td>ICONS</td>
+                </tr>
+            </tbody>
+             
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
