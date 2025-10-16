@@ -128,7 +128,7 @@ The system comes pre-loaded with sample data including:
 
 
 ## 👥 Team Roles
--Login Developer (Build authentication system) - Mariam Adesina
--Teacher Dashboard Developer (Student management & grade entry features) - Lukman Ibrahim
--Student Interface Developer (Student dashboard & course viewing system) - Samuel Oyedoyin
--Designer (Styling, layout, and user experience) - Olamide Olabodee
+- Login Developer (Build authentication system) - Mariam Adesina
+- Teacher Dashboard Developer (Student management & grade entry features) - Lukman Ibrahim
+- Student Interface Developer (Student dashboard & course viewing system) - Samuel Oyedoyin
+- Designer (Styling, layout, and user experience) - Olamide Olabodee
